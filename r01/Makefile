@@ -1,8 +1,11 @@
 foo : foo.o main.o
-	gcc $^ -o $@
+	gcc foo.o main.o -o foo
 
-%.o: %.c
-	gcc -c $^
+foo.o: foo.c
+	gcc -c foo.c
+
+main.o: main.c
+	gcc -c main.c
 
 clean :
 	rm foo.o main.o foo
