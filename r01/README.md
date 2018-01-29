@@ -100,7 +100,7 @@ Key commands:
 * `:w` to save the buffer into the file.
 * `:q` to quit vim. `:wq` to write and quit.
 
-Useful settings to put in /home/cso17/.vimrc:
+Useful settings to put in `$USER/.vimrc`:
 * `filetype on`           " Enable filetype detection
 * `filetype indent on`    " Enable filetype-specific indenting
 * `filetype plugin on`    " Enable filetype-specific plugins
