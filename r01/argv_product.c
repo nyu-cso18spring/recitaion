@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     
-    int length = argc - 1;
+    int length = argc;
     int numbers[length];
     for (int i = 1; i < argc; i++) {
         int number = atoi(argv[i]);
