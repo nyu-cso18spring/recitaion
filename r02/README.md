@@ -12,7 +12,7 @@ Hint: Some function calls can be ignore. After finding out the meanful function 
 Question: From the mathmetical view, there is only one solution. However, there are multiple solutions for e1.c. Why?
 
 ## Exercise 2
-Compile **e2.c** and execute it. You should see the output is 0. For this exercise, you need to modify the values of **i** and **j** on line 4 and line 5 respectively so that the output is **-28**. It's easy to get the answer by trial and error but you should understand the meaning of the answer. Note that there are multiple answers. You can pick any one of them.
+Compile **e2.c** and execute it. You should see the output is 0. For this exercise, you need to modify the values of **i** and **j** on line 5 and line 6 respectively so that the output is **-28**. It's easy to get the answer by trial and error but you should understand the meaning of the answer. Note that there are multiple answers. You can pick any one of them.
 
 ## Exercise 3
 Compile **e3.c** and execute it. You should see the output is 1109917696. Modify the value of **answer** so that the output is **1069547520**.
