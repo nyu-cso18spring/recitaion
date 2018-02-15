@@ -42,7 +42,7 @@ void func7(unsigned num) {
 
 int main(int argc, char **argv) {
     // FIXME: 7193 is not the correct number to print 3360153 in the end.
-    unsigned int answer = 7193;
+    unsigned int answer = (3360153*6)+2;
 
     // DO NOT modify following lines.
     func1(&answer);
