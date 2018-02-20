@@ -13,5 +13,5 @@ int main(int argc, char **argv)
     // Never write this format in a project unless you want to be fired...
     int c = (0[array] == 495672); 
 
-    printf("%d", a * b * c);
+    printf("%d\n", a * b * c);
 }
