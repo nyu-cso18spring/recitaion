@@ -4,8 +4,15 @@
 // TODO: Complete this API. The argument is a string and the return value is
 //       the length of the string.
 int cso_strlen(char *str) {
-    // Add your code here.
-    return -1;
+    int LengthOfStr = 0;//create a counter for the length
+    while(str[LengthOfStr]!='\0');//if the current place in the string isn't /0 it means we aren't at the end of the string
+    {
+        LengthOfStr++;//increase the counter by one and repeat
+        
+    }
+    //printf("%i", LengthOfStr); just to check if everything was working
+    return LengthOfStr;//when we come to the end of the string exit the while loop and return the length counter
+    
 }
 
 #if 0
@@ -16,5 +23,6 @@ int cso_strlen(char *str) {
 int main(int argc, char **argv)
 {
     // Your own tests.
+    //tested everything on the online C complier
 }
 #endif
