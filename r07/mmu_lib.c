@@ -62,13 +62,13 @@ unsigned int translate(unsigned int address)
         // page fault
         printf("L0 page fault\n");
         page_fault_count += 1;
-        root_page_table[index_in_l0] = (unsigned long long)malloc(sizeof(unsigned long long) * ENTRIES_IN_L1);
-        l1_page_table = (unsigned long long*)root_page_table[index_in_l0];
+        root_page_table[index_in_l0] = (unsigned long long) calloc(ENTRIES_IN_L1, sizeof(unsigned long long));
+        l1_page_table = (unsigned long long*) root_page_table[index_in_l0];
         for (int i = 0; i < ENTRIES_IN_L1; i++) {
             l1_page_table[i] = 0;
         }
     } else {
-        l1_page_table = (unsigned long long*)root_page_table[index_in_l0];
+        l1_page_table = (unsigned long long*) root_page_table[index_in_l0];
     }
 
     // Layer 1
