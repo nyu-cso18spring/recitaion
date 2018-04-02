@@ -18,9 +18,13 @@ Q2: After line 14 of mmu.c "assert(translate(0xFFFF0001) == 0x1FFF0001);",
 */
 void q2(void)
 {
-    /* Assign the answer of q2 to the answer variable. */
-    unsigned answer = 0;
-    printf("%u\n", answer);
+    /* Assign the answers of q2 to the answer variables. */
+    unsigned answer_r0 = 0;
+    unsigned answer_r1 = 0;
+    unsigned answer_r2 = 0;
+    printf("%u\n", answer_r0);
+    printf("%u\n", answer_r1);
+    printf("%u\n", answer_r2);
 }
 
 /*
@@ -31,9 +35,14 @@ Q3: After line 17 of mmu.c "assert(translate(0x5E300109) == 0x7E300109);",
 */
 void q3(void)
 {
-    /* Assign the answer of q3 to the answer variable. */
-    unsigned answer = 0;
-    printf("%u\n", answer);
+    /* Assign the answers of q3 to the answer variables. */
+    unsigned answer_r0 = 0;
+    unsigned answer_r1 = 0;
+    unsigned answer_r2 = 0;
+    printf("%u\n", answer_r0);
+    printf("%u\n", answer_r1);
+    printf("%u\n", answer_r2);
+
 }
 
 /*
