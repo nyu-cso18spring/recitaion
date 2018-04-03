@@ -16,7 +16,12 @@ Buffer Overflow
 What to submit and how to submit??
 ----------------------------------
 Before submitting your solution, you can type **git diff** to see what you change. Be sure to change those lines or functions specified in above descriptions.  
-You need to submit all two modified files.  
+
+This is a two part recitation. For the first week, due April 5th at 11:59pm, please only answer question 5 in **questions.c** then commit and push. 
+**git commit -m "First part of r07" questions.c**  
+**git push**
+
+For the second week of this recitation, due on April 12th at 11:59pm, you need to submit all two modified files. Please make sure all questions in the questions file are answered at this point.
 **git add mmu\_lib.c questions.c**   
 **git commit -m "r07"**  
 **git push**
