@@ -11,7 +11,7 @@ questions: questions.c
 	gcc questions.c -o questions
 
 buffer_overflow: buffer_overflow.c
-	gcc buffer_overflow.c -O0 -fno-stack-protector -o buffer_overflow
+	gcc buffer_overflow.c -Og -fno-stack-protector -o buffer_overflow
 
 clean:
 	rm -f mmu mmu_test buffer_overflow questions

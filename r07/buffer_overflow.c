@@ -2,7 +2,7 @@
 #include <string.h>
 
 void HACK(void) {
-    printf("Good luck for you midterm!\n");
+    printf("Our democracy has been hacked!\n");
 }
 
 int convert(char *str) {
