@@ -1,4 +1,4 @@
-Recitation 7
+Recitation 8
 ============
 
 Cache and cache friendly programming
@@ -9,7 +9,7 @@ What to submit and how to submit??
 ----------------------------------
 Before submitting your solution, you can type **git diff** to see what you change. Be sure to change those lines or functions specified in above descriptions. You need to submit all two modified files.  
 **git add e1.c e2.c**   
-**git commit -m "r07"**  
+**git commit -m "r08"**  
 **git push** 
 
-**Deadline: Apr 17 23:59 PM**  
+**Deadline: Apr 19 23:59 PM**  
