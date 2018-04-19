@@ -54,7 +54,6 @@ void multi_core_execution(unsigned long* vector)
     // Hint: You need to use threads and args arrays defined in this function.
     // Hint: "man pthread_create" to understand how to create threads.
     // Hint: You can set the second argument to pthread_create() to NULL.
-    int seg_len = LENGTH / CORES;
     for (int i = 0 ; i < CORES; i++) {
         /* FIXME */
     }
