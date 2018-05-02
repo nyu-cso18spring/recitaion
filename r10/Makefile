@@ -1,4 +1,4 @@
-all: e1 e2 race
+all: e1 e2 race simple
 	@echo "Done"
 
 e1: e1.c
@@ -9,6 +9,9 @@ e2: e2.c
 
 race: race.c
 	gcc race.c -o race -lpthread
+
+simple: simple.c
+	gcc simple.c -o simple -lpthread
 
 clean:
 	rm e1 e2 race
