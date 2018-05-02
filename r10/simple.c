@@ -21,6 +21,9 @@ int main() {
 
     for (int i = 0; i < THRD; i++)
         pthread_join(thrds[i], NULL);
-    printf("Value of x is %d, should be %d\n", x, INCR * THRD);
-    return 0;
+
+    if (x != INCR * THRD)
+        printf("Value of x is %d, should be %d\n", x, INCR * THRD);
+
+    return x != INCR * THRD;
 }
